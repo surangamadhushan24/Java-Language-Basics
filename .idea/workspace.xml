@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c95b41-40b2-4228-b588-3af4fa7effd9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/passByValueExperiment/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/passByValueExperiment/SwapExperiment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/numberGuessingGame/NumberGuessingGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculatorProgram/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculatorProgram/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +33,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "onboarding.tips.debug.path": "D:/Data Structure/dsa/Java Language Basics/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Data Structure/dsa/Java Language Basics/src/Main.java&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.SwapExperiment">
+}</component>
+  <component name="RunManager" selected="Application.NumberGuessingGame">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="calculatorProgram.Calculator" />
       <module name="Java Language Basics" />
@@ -70,6 +68,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NumberGuessingGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="numberGuessingGame.NumberGuessingGame" />
+      <module name="Java Language Basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="numberGuessingGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SwapExperiment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="passByValueExperiment.SwapExperiment" />
       <module name="Java Language Basics" />
@@ -85,6 +96,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberGuessingGame" />
         <item itemvalue="Application.SwapExperiment" />
         <item itemvalue="Application.CommandLineArgumentsCal" />
         <item itemvalue="Application.Calculator" />
