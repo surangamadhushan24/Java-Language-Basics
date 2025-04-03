@@ -31,6 +31,7 @@ public class Calculator  {
         try {
             return firstNumber / secondNumber;
         }
+//      Exceptions are the unusual events which disrupt the normal flow of execution of a program
         catch (Exception ex){
             throw ex;
         }
