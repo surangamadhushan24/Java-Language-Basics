@@ -1,7 +1,6 @@
 package numberGuessingGame;
 
-import java.util.HashMap;
-import java.util.Random;
+
 import java.util.Scanner;
 
 
@@ -39,28 +38,33 @@ public class NumberGuessingGame {
         while(count < loopValue) {
 
             System.out.println("Guess number in 1 - 100: ");
-             guessNumber = sc.nextInt();
+            try {
+                guessNumber = sc.nextInt();
 
-            if(guessNumber == rangeRandom){
-                System.out.println("you are win");
-                break;
-            } else if (guessNumber > rangeRandom) {
+                if(guessNumber == rangeRandom){
+                    System.out.println("you are win");
+                    break;
+                } else if (guessNumber > rangeRandom) {
 
-                System.out.println("too high! try again");
+                    System.out.println("too high! try again");
 
-            } else {
-                System.out.println("too Low! try again");
+                } else {
+                    System.out.println("too Low! try again");
+                }
+                count ++;
+
             }
-            count ++;
+            catch (Exception ex){
+                System.out.println("Enter valid input!!");
+                sc.next();
+                continue;
+            }
 
         }
 
      if(guessNumber != rangeRandom){
          System.out.println("you are lost!!!");
      }
-
-
-
 
     }
 }

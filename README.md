@@ -14,5 +14,6 @@ _Exercise 3_: Number Guessing Game Build a game where the computer generates a r
 Use if-else for hints ("too high" or "too low"), a while loop for repeated guesses, and break when the user wins.
 Add a switch to let the user choose difficulty (e.g., number of allowed guesses).
 
-_Exercise 3_:Prime Number Checker Write a program to check if a number is prime using a for loop and the ternary operator to print "Prime" or "Not Prime".
+_Exercise 4_:Prime Number Checker Write a program to check if a number is prime using a for loop and the ternary operator to print "Prime" or "Not Prime".
 Use continue to skip unnecessary iterations and a labeled break to exit early if needed.
+
